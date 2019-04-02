@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# Use by command:
+# $ ./toggl.sh 09.22.2017
+# or simply (current date will be used)
+# $ ./toggl.sh
+
+TOGGLE_API_KEY="<toggle_api_key_here>"
+JIRA_URL="<jira_url_here>"
+JIRA_API_KEY="<jira_api_key_here>"
+
+# date format = mm.dd.YYYY
+DATE=$1
+if [ $# -eq 0 ]
+    then
+        DATE=$(date +'%m.%d.%Y') # current date
+fi
+
+node index.js --group $TOGGLE_API_KEY $JIRA_URL $JIRA_API_KEY $DATE
