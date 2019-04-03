@@ -7,7 +7,7 @@
 
 TOGGLE_API_KEY="<toggle_api_key_here>"
 JIRA_URL="<jira_url_here>"
-JIRA_API_KEY="<jira_api_key_here>"
+JIRA_API_KEY="<jira_api_key_here>" # username:password
 
 # date format = mm.dd.YYYY
 DATE=$1

@@ -18,9 +18,9 @@
   "homepage": "https://github.com/janzaba/toggl2jira/#readme",
   "devDependencies": {
     "chai": "^3.5.0",
-    "eslint": "^3.19.0",
+    "eslint": "^5.16.0",
     "eslint-config-google": "^0.7.1",
-    "mocha": "^3.2.0",
+    "mocha": "^6.0.2",
     "sinon": "^2.1.0",
     "sinon-chai": "^2.9.0"
   },
