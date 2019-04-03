@@ -26,8 +26,6 @@
   },
   "dependencies": {
     "async": "^2.6.2",
-    "jira-connector": "^2.10.0",
-    "node-redmine": "^0.1.5",
     "toggl-api": "^1.0.1"
   },
   "scripts": {
