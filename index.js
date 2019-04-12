@@ -32,7 +32,8 @@ function usage() {
          '<toggl-key> ' +
          '<jira-url> ' +
          '<jira-username:jira-password> ' +
-         '<mm-dd-yyyy>';
+         '<mm-dd-yyyy>' +
+         'id_key';
 }
 
 // Process arguments
@@ -49,13 +50,17 @@ process.argv.slice(2).forEach(function(arg) {
 });
 
 // Check arguments
-if (args.length !== 4) {
+if (args.length < 4) {
   process.stdout.write(usage());
   process.exit(1);
 }
 
 // Prepare options
 let jira = args[2].split(':');
+let idKey = '#';
+if (args[4]) {
+  idKey = args[4];
+}
 let options = {
   'toggl': {
     'apiKey': args[0],
@@ -64,6 +69,7 @@ let options = {
     'url': args[1],
     'username': jira[0],
     'password': jira[1],
+    'idKey': idKey,
   },
   'date': args[3],
   'group': group,

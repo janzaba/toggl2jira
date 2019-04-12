@@ -8,6 +8,7 @@
 TOGGLE_API_KEY="<toggle_api_key_here>"
 JIRA_URL="<jira_url_here>"
 JIRA_API_KEY="<jira_api_key_here>" # username:password
+ID_KEY="#" # key to identify task id in toggl regex ex: #1234 where 1234 is id of task and # is id_key
 
 # date format = mm.dd.YYYY
 DATE=$1
