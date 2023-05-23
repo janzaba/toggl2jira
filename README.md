@@ -49,6 +49,14 @@ The script supports the following time entry formats:
 
 The script will parse the time entries based on these patterns and push them to the corresponding Jira tasks.
 
+## Unit tests
+To run unit tests use following:
+
+```
+pytest test_toggl2jira.py
+```
+
+
 ## Authors
 
 - ChatGPT-4
