@@ -1,7 +1,7 @@
 # Toggl API settings
 TOGGL_API_TOKEN = 'your_toggl_api_token_here'
 TOGGL_WORKSPACE_ID = 'your_toggl_workspace_id_here'
-TOGGL_API_URL = 'https://api.track.toggl.com/api/v8'
+TOGGL_BASE_URL = 'https://api.track.toggl.com/api/v8/'
 
 # Jira API settings
 JIRA_API_TOKEN = 'your_jira_api_token_here'
