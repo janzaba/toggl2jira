@@ -5,6 +5,6 @@ TOGGL_BASE_URL = 'https://api.track.toggl.com/api/v8/'
 
 # Jira API settings
 JIRA_API_TOKEN = 'your_jira_api_token_here'
-JIRA_API_EMAIL = 'your_jira_email_here'
+JIRA_USERNAME = 'your_jira_email_here'
 JIRA_API_URL = 'https://yourdomain.atlassian.net/rest/api/2'
 JIRA_API_URL_SECONDARY = 'https://anotherdomain.atlassian.net/rest/api/2'
